@@ -3,12 +3,13 @@
 <h2>Lista de Productos</h2>
 
 <a asp-action="Agregar" class="btn btn-success mb-3">
-    ➕ Agregar Producto
+     Agregar Producto
 </a>
 
 <table class="table table-striped">
     <thead>
         <tr>
+            <th>Id</th>
             <th>Nombre</th>
             <th>Precio</th>
             <th></th>
@@ -18,6 +19,7 @@
         @foreach (var producto in Model)
         {
             <tr>
+                <td>@producto.Id</td>
                 <td>@producto.Nombre</td>
                 <td>₡ @producto.Precio</td>
                 <td>
