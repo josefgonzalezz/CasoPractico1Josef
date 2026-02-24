@@ -33,34 +33,24 @@ namespace EstudiodeCasoJosef.Controllers
         }
 
         [HttpPost("agregar")]
-        public IActionResult Agregar(Factura factura, int productoId, int cantidad)
+        public IActionResult Agregar(Factura factura)
         {
             ViewBag.Productos = _productoService.ObtenerTodos();
 
             if (!ModelState.IsValid)
                 return View(factura);
 
-            var producto = _productoService.ObtenerDetalle(productoId);
+            factura.Detalles = factura.Detalles
+                .Where(d => d.Cantidad > 0)
+                .ToList();
 
-            if (producto == null || cantidad <= 0)
+            if (!factura.Detalles.Any())
             {
-                ModelState.AddModelError("", "Debe seleccionar un producto válido.");
+                ModelState.AddModelError("", "Debe agregar al menos un producto con cantidad mayor a 0.");
                 return View(factura);
             }
 
-            factura.Detalles = new List<DetalleFactura>
-            {
-                new DetalleFactura
-                {
-                    ProductoId = producto.Id,
-                    NombreProducto = producto.Nombre,
-                    Cantidad = cantidad,
-                    PrecioUnitario = producto.Precio
-                }
-            };
-
             _facturaService.CrearFactura(factura);
-
             return RedirectToAction("Index");
         }
 

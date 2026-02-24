@@ -1,34 +1,27 @@
 ﻿@model EstudiodeCasoJosef.Data.Factura
 
-@{
-    ViewData["Title"] = "Nueva Factura";
-}
-
 <h2>Nueva Factura</h2>
 
-@if (!ViewData.ModelState.IsValid)
+@if (ViewData.ModelState.ErrorCount > 0)
 {
-    <div class="alert alert-danger">
-        <ul>
-            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-            {
-                <li>@error.ErrorMessage</li>
-            }
-        </ul>
-    </div>
+    <div asp-validation-summary="All" class="alert alert-danger"></div>
 }
 
 <form asp-action="Agregar" method="post">
 
     <div class="mb-3">
-        <label asp-for="NombreCliente" class="form-label">Nombre del Cliente</label>
+        <label asp-for="NombreCliente"></label>
         <input asp-for="NombreCliente" class="form-control" />
         <span asp-validation-for="NombreCliente" class="text-danger"></span>
     </div>
 
     <hr />
-
     <h5>Productos Disponibles</h5>
+
+    @{
+        var productos = ViewBag.Productos as List<EstudiodeCasoJosef.Data.Producto>;
+        int index = 0;
+    }
 
     <table class="table table-bordered">
         <thead>
@@ -39,33 +32,35 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var producto in ViewBag.Productos)
+            @foreach (var producto in productos)
             {
                 <tr>
                     <td>
-                        <input type="hidden" name="productoId" value="@producto.Id" />
                         @producto.Nombre
+
+                        <input type="hidden" name="Detalles[@index].ProductoId" value="@producto.Id" />
+                        <input type="hidden" name="Detalles[@index].NombreProducto" value="@producto.Nombre" />
+                        <input type="hidden" name="Detalles[@index].PrecioUnitario" value="@producto.Precio" />
                     </td>
+
                     <td>₡ @producto.Precio</td>
+
                     <td>
                         <input type="number"
-                               name="cantidad"
+                               name="Detalles[@index].Cantidad"
                                min="0"
                                value="0"
                                class="form-control" />
                     </td>
                 </tr>
+
+                index++;
             }
         </tbody>
     </table>
 
-    <button type="submit" class="btn btn-primary">
-        Guardar Factura
-    </button>
-
-    <a asp-action="Index" class="btn btn-secondary">
-        Cancelar
-    </a>
+    <button type="submit" class="btn btn-primary">Guardar Factura</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
 
 </form>
 

@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PrograAvanzada\\EstudiodeCasoJosef\\",
+  "WorkspaceRootPath": "C:\\PROGRAAVANZADA\\CasoPractico1Josef\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A296C-4854-4056-9446-D745E5DD32F8}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\estudiodecasojosef\\estudiodecasojosef\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA1A296C-4854-4056-9446-D745E5DD32F8}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\views\\factura\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\views\\factura\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A296C-4854-4056-9446-D745E5DD32F8}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\estudiodecasojosef\\estudiodecasojosef\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA1A296C-4854-4056-9446-D745E5DD32F8}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\views\\producto\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\views\\producto\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA1A296C-4854-4056-9446-D745E5DD32F8}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\estudiodecasojosef\\estudiodecasojosef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CA1A296C-4854-4056-9446-D745E5DD32F8}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\PrograAvanzada\\EstudiodeCasoJosef\\EstudiodeCasoJosef\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\PrograAvanzada\\EstudiodeCasoJosef\\EstudiodeCasoJosef\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "EstudiodeCasoJosef\\Controllers\\HomeController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T02:47:23.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FacturaController.cs",
-              "DocumentMoniker": "C:\\PrograAvanzada\\EstudiodeCasoJosef\\EstudiodeCasoJosef\\Controllers\\FacturaController.cs",
-              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Controllers\\FacturaController.cs",
-              "ToolTip": "C:\\PrograAvanzada\\EstudiodeCasoJosef\\EstudiodeCasoJosef\\Controllers\\FacturaController.cs",
-              "RelativeToolTip": "EstudiodeCasoJosef\\Controllers\\FacturaController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T02:47:20.467Z",
+              "Title": "Agregar.cshtml",
+              "DocumentMoniker": "C:\\PROGRAAVANZADA\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\Producto\\Agregar.cshtml",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Views\\Producto\\Agregar.cshtml",
+              "ToolTip": "C:\\PROGRAAVANZADA\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\Producto\\Agregar.cshtml",
+              "RelativeToolTip": "EstudiodeCasoJosef\\Views\\Producto\\Agregar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T18:15:01.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\PrograAvanzada\\EstudiodeCasoJosef\\EstudiodeCasoJosef\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\PrograAvanzada\\EstudiodeCasoJosef\\EstudiodeCasoJosef\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "EstudiodeCasoJosef\\Views\\Home\\Index.cshtml",
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\PROGRAAVANZADA\\CasoPractico1Josef\\EstudiodeCasoJosef\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\PROGRAAVANZADA\\CasoPractico1Josef\\EstudiodeCasoJosef\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "EstudiodeCasoJosef\\Controllers\\FacturaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T18:08:36.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Agregar.cshtml",
+              "DocumentMoniker": "C:\\PROGRAAVANZADA\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\Factura\\Agregar.cshtml",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Views\\Factura\\Agregar.cshtml",
+              "ToolTip": "C:\\PROGRAAVANZADA\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\Factura\\Agregar.cshtml",
+              "RelativeToolTip": "EstudiodeCasoJosef\\Views\\Factura\\Agregar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T02:47:12.011Z",
+              "WhenOpened": "2026-02-24T17:27:43.164Z",
               "EditorCaption": ""
             }
           ]
