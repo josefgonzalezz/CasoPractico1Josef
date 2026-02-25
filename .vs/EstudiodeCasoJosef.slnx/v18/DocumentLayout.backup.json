@@ -1,12 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PROGRAAVANZADA\\CasoPractico1Josef\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\PrograAvanzada\\CasoPractico1Josef\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|c:\\prograavanzada\\casopractico1josef\\estudiodecasojosef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AA4D72DE-FCB1-3257-CD18-9B073E6B9B30}|EstudiodeCasoJosef\\EstudiodeCasoJosef.csproj|solutionrelative:estudiodecasojosef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EstudiodeCasoJosef\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T00:09:17.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EstudiodeCasoJosef\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T00:08:55.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EstudiodeCasoJosef\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T00:08:46.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Program.cs",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Program.cs",
+              "ToolTip": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Program.cs",
+              "RelativeToolTip": "EstudiodeCasoJosef\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T00:08:33.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\appsettings.json",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\appsettings.json",
+              "ToolTip": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\appsettings.json",
+              "RelativeToolTip": "EstudiodeCasoJosef\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-25T00:08:28.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EstudiodeCasoJosef\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\PrograAvanzada\\CasoPractico1Josef\\EstudiodeCasoJosef\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EstudiodeCasoJosef\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T00:08:22.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
